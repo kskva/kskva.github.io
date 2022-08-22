@@ -30,10 +30,9 @@ nav{
 
 .main{
     width: 100%;
-    height: calc(100% - 20px); /*-60 ???????????????*/
+    height: calc(100% - 60px);
     background: url(../img/%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C%20fon.png) 90% 100%/auto 85% no-repeat,
         url(../img/start_fon.png) center/cover no-repeat;
-    margin-bottom: -40px; /*???????обрезать низ????????*/
 }
     
 .title_container{
@@ -63,7 +62,7 @@ nav{
     margin: 58px 14px 0px 14px;
 }
 .about_me{
-    box-shadow: 0 -5px 35px -5px rgba(0, 0, 0, .5); /*???????тень блока????????*/
+    box-shadow: 0 -5px 35px -5px rgba(0, 0, 0, .5); 
     width: 100%;
     height: 710px;
     background-color: #fff;
@@ -233,12 +232,13 @@ nav{
 select{
     height: 55px;
     width: 890px;
-    background-color: #eeeeee;
     padding-left: 25px;
     padding-right: 30px;
     font-size: 16.67px;
     color: #737373; 
-/*    положение стрелки и размер выпадающего списка???*/
+    appearance: none;
+    background: url(../img/list_arrow.png) 97% no-repeat;
+    background-color: #eeeeee;
   }
 .total{
     height: calc (100% - 211.83px - 923px);
@@ -249,6 +249,7 @@ select{
     height: 2px;
     margin-bottom: 10px;
     background: url(../img/total_line.png) no-repeat;
+    
 }
 .name {
     font-size: 21px;
@@ -256,9 +257,8 @@ select{
     line-height: 2;
 }
 .name span{
-    font-size: 30px;
+    font-size: 21px;
     float: right;
-/*    нули на разном расстоянии???*/
 }
 .statistics{
     height: 499px;
